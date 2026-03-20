@@ -1,41 +1,41 @@
-# Dashboard Análisis de Clientes y Ventas - Proyecto Final
+# Customer and Marketing Campaign Analytics Dashboard - Final Project
 
-Dashboard desarrollado como proyecto final del bootcamp de Data Analytics de Datahack (IBM).
-Analiza el comportamiento de 2.240 clientes con 1.356.988 € en ingresos totales y 33.291 ventas registradas.
+Dashboard developed as a final project for the Data Analytics Bootcamp at Datahack (IBM).
+Analyzes the behavior of 2,240 customers with €1,356,988 in total revenue and 33,291 recorded sales.
 
 ## Dataset
-Fuente: Marketing Campaign Dataset (Kaggle)
-Formato: CSV con 2.240 registros y 29 variables.
-Incluye datos demográficos, historial de compras por categoría de producto,
-respuesta a campañas de marketing y canales de venta.
-Dataset público disponible en: https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
+Source: Marketing Campaign Dataset (Kaggle)
+Format: CSV with 2,240 records and 29 variables.
+Includes demographic data, purchase history by product category,
+marketing campaign response, and sales channels.
+Public dataset available at: https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis
 
-## Herramientas
+## Tools
 - Power BI Desktop
-- Power Query para limpieza y modelado de datos
-- DAX para métricas y KPIs calculados
+- Power Query for data cleaning and modeling
+- DAX for calculated metrics and KPIs
 
-## Páginas del dashboard
+## Dashboard Pages
 
-**Campañas:** aceptación de 5 campañas de marketing segmentada por rango de ingresos.
-El total acumulado supera el 231% del objetivo.
+**Campaigns:** acceptance of 5 marketing campaigns segmented by income range.
+Total accumulated acceptance exceeds 231% of the target.
 
-**Clientes:** ventas por estado civil, altas de clientes por mes, distribución por rango de ingresos
-y ventas según nivel educativo. Incluye contador de reclamaciones.
+**Customers:** sales by marital status, new customers by month, income range distribution,
+and sales by education level. Includes a complaints counter.
 
-**Productos:** distribución de ventas por categoría (Vinos representa el 50,17% del total,
-Carnes el 27,56%). Cruce de ventas por producto y nivel educativo del cliente.
+**Products:** sales distribution by category (Wine accounts for 50.17% of total,
+Meat for 27.56%). Cross-analysis of sales by product and customer education level.
 
-**Canales:** captaciones por canal según nivel educativo, distribución por canal de venta
-(Tienda lidera con 38,96%) y visitas web segmentadas por edad.
+**Channels:** acquisitions by channel and education level, sales channel distribution
+(Store leads with 38.96%), and web visits segmented by age group.
 
-## Filtros globales
-Todos los filtros aplican a las 4 páginas simultáneamente:
-año de alta, rango de edad, rango de ingresos, nivel educativo y número de descendientes.
+## Global Filters
+All filters apply simultaneously to all 4 pages:
+registration year, age range, income range, education level, and number of dependents.
 
-## Capturas
+## Screenshots
 
-![Campañas](pf_campanas.png)
-![Clientes](pf_clientes.png)
-![Productos](pf_productos.png)
-![Canales](pf_canales.png)
+![Campaigns](pf_campanas.png)
+![Customers](pf_clientes.png)
+![Products](pf_productos.png)
+![Channels](pf_canales.png)
